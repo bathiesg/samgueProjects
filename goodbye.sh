@@ -1,3 +1,3 @@
 #!/bin/sh
-# say goodbye
+# saying goodbye
 echo "Goodbye people!"
