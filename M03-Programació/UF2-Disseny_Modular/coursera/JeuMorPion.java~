@@ -1,0 +1,30 @@
+/*
+ * Morpion.java
+ * 
+ * Copyright 2016 Samba Gueye <gueye.smba@gmail.com>
+ * 
+ * This is free software, licensed under the GNU General Public License v3.
+ * See http://www.gnu.org/licenses/gpl.html for more information.
+ */
+
+package morpion;
+
+/**
+ * Modelise le jeu de Morpion
+ * 
+ * il s'agit d'un jeu constitue d'une table de 3 lignes et 3 colonnes.
+ * il ya deux jours: un avec des pions ronds et l'autre avec des pions croix.
+ * si un joueur parvient a placer ses pions en lignes ou en colonnes ou en diagonal alors il est vainqueur
+ * 
+ */
+class JeuMorPion {
+    //si la case est vide alors sa valeur est 0
+    private final static int VIDE = 0;
+    //le pion rond vaut 1
+    private final static int ROND = 1;
+    //le piuon croix vaut 2
+    private final static int CROIX = 2;
+    
+    //declarons une table qui sera la grille de jeu
+    private int[][] grille;
+    
